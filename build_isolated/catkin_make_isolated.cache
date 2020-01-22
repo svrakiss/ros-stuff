@@ -1,0 +1,2 @@
+ddynamic_reconfigure:kolt_ros:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:vision_msgs:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/nvidia/catkin_build_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/nvidia/catkin_build_ws/install_isolated

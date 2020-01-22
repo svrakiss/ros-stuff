@@ -1,0 +1,1 @@
+/home/nvidia/catkin_build_ws/devel/.private/realsense2_camera/share/roseus/ros/realsense2_camera/manifest.l

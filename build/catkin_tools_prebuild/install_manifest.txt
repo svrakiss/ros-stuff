@@ -1,0 +1,13 @@
+/home/nvidia/catkin_build_ws/install/_setup_util.py
+/home/nvidia/catkin_build_ws/install/env.sh
+/home/nvidia/catkin_build_ws/install/setup.bash
+/home/nvidia/catkin_build_ws/install/local_setup.bash
+/home/nvidia/catkin_build_ws/install/setup.sh
+/home/nvidia/catkin_build_ws/install/local_setup.sh
+/home/nvidia/catkin_build_ws/install/setup.zsh
+/home/nvidia/catkin_build_ws/install/local_setup.zsh
+/home/nvidia/catkin_build_ws/install/.rosinstall
+/home/nvidia/catkin_build_ws/install/lib/pkgconfig/catkin_tools_prebuild.pc
+/home/nvidia/catkin_build_ws/install/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+/home/nvidia/catkin_build_ws/install/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+/home/nvidia/catkin_build_ws/install/share/catkin_tools_prebuild/package.xml

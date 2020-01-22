@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kolt</name>
+  <version>1.0.0</version>
+  <description>A ROS implementation of YOLOv2 using Karas and TensorFlow.</description>
+  <maintainer email="narosenberg@wpi.edu">Nathan Rosenberg</maintainer>
+  <license>BSD</license>
+  <url type="website">https://github.com/diggerdata/yolov2_ros</url>
+  <author email="narosenberg@wpi.edu">Nathan Rosenberg</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>sensor_msgs</depend>
+  <depend>actionlib</depend>
+  <depend>vision_msgs</depend>
+
+  <!-- Test dependencies -->
+  <test_depend>rostest</test_depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>

@@ -1,0 +1,29 @@
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target _kolt_generate_messages_check_deps_ObjectLocationArray
+[  0%] Built target vision_msgs_generate_messages_lisp
+[  0%] Built target _kolt_generate_messages_check_deps_YoloDetect
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target vision_msgs_generate_messages_eus
+[  0%] Built target _kolt_generate_messages_check_deps_ObjectLocation
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target vision_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target vision_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target vision_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[ 16%] Built target kolt_generate_messages_lisp
+[ 38%] Built target kolt_generate_messages_eus
+[ 55%] Built target kolt_generate_messages_cpp
+[ 72%] Built target kolt_generate_messages_nodejs
+[100%] Built target kolt_generate_messages_py
+[100%] Built target kolt_generate_messages

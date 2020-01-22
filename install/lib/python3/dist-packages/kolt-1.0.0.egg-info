@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kolt
+Version: 1.0.0
+Summary: A ROS implementation of YOLOv2 using Karas and TensorFlow.
+Home-page: https://github.com/diggerdata/yolov2_ros
+Author: Nathan Rosenberg
+Author-email: narosenberg@wpi.edu
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

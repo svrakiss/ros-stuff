@@ -1,0 +1,1 @@
+/home/nvidia/catkin_build_ws/devel/.private/vision_msgs/share/roseus/ros/vision_msgs/msg/ObjectHypothesisWithPose.l
