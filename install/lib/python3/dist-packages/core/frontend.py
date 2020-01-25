@@ -75,7 +75,9 @@ class YOLO(object):
         if backend == 'inception3':
             self.feature_extractor = Inception3Feature(self.input_size, self.backend_path)  
         elif backend == 'squeeze_net':
-            self.feature_extractor = SqueezeNetFeature(self.input_size, self.backend_path)        
+            self.feature_extractor = SqueezeNetFeature(self.input_size, self.backend_path)            
+        elif backend == 'vgg16':
+            self.feature_extractor = VGG16Feature(self.input_size,self.backend_path)
         elif backend == 'mobile_net':
             self.feature_extractor = MobileNetFeature(self.input_size, self.backend_path)
         elif backend == 'full_yolo':

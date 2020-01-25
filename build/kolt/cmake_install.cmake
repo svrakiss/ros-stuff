@@ -199,6 +199,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kolt" TYPE PROGRAM FILES "/home/nvidia/catkin_build_ws/build/kolt/catkin_generated/installspace/gen_anchors.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kolt" TYPE PROGRAM FILES "/home/nvidia/catkin_build_ws/build/kolt/catkin_generated/installspace/vision_pose.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kolt/launch" TYPE DIRECTORY FILES "/home/nvidia/catkin_build_ws/src/kolt_ros/launch/")
 endif()
 

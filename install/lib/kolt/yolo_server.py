@@ -45,7 +45,7 @@ class YoloServer(object):
             anchors = self.anchors
         )
 
-        self.yolo.load_weights(self.weights_path + '/' + self.weight_file)
+#        self.yolo.load_weights(self.weights_path + '/' + self.weight_file)
 
         rospy.loginfo('YOLO detector ready...')
 
