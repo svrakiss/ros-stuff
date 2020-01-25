@@ -5,9 +5,9 @@ python3 = True if sys.hexversion > 0x03000000 else False
 import genpy
 import struct
 
-import sensor_msgs.msg
 import vision_msgs.msg
 import std_msgs.msg
+import sensor_msgs.msg
 
 class Classification3D(genpy.Message):
   _md5sum = "2c0fe97799b60ee2995363b3fbf44715"
@@ -438,24 +438,18 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
+_struct_qd = None
+def _get_struct_qd():
+    global _struct_qd
+    if _struct_qd is None:
+        _struct_qd = struct.Struct("<qd")
+    return _struct_qd
 _struct_IBI = None
 def _get_struct_IBI():
     global _struct_IBI
     if _struct_IBI is None:
         _struct_IBI = struct.Struct("<IBI")
     return _struct_IBI
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
-_struct_B = None
-def _get_struct_B():
-    global _struct_B
-    if _struct_B is None:
-        _struct_B = struct.Struct("<B")
-    return _struct_B
 _struct_2I = None
 def _get_struct_2I():
     global _struct_2I
@@ -468,9 +462,15 @@ def _get_struct_B2I():
     if _struct_B2I is None:
         _struct_B2I = struct.Struct("<B2I")
     return _struct_B2I
-_struct_qd = None
-def _get_struct_qd():
-    global _struct_qd
-    if _struct_qd is None:
-        _struct_qd = struct.Struct("<qd")
-    return _struct_qd
+_struct_B = None
+def _get_struct_B():
+    global _struct_B
+    if _struct_B is None:
+        _struct_B = struct.Struct("<B")
+    return _struct_B
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I

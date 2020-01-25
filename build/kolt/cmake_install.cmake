@@ -194,6 +194,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kolt" TYPE PROGRAM FILES "/home/nvidia/catkin_build_ws/build/kolt/catkin_generated/installspace/yolo_predict.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kolt" TYPE PROGRAM FILES "/home/nvidia/catkin_build_ws/build/kolt/catkin_generated/installspace/yolo_server.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kolt/launch" TYPE DIRECTORY FILES "/home/nvidia/catkin_build_ws/src/kolt_ros/launch/")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nvidia/catkin_build_ws/build/kolt/gtest/cmake_install.cmake")

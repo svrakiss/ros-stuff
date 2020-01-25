@@ -1,0 +1,16 @@
+[31m[1mCMake Error[0m at /home/nvidia/catkin_build_ws/src/kolt_ros/CMakeLists.txt:153 (add_dependencies):
+  Cannot add target-level dependencies to non-existent target "kolt_node".
+
+  The add_dependencies works for top-level logical targets created by the
+  add_executable, add_library, or add_custom_target commands.  If you want to
+  add file-level dependencies see the DEPENDS option of the add_custom_target
+  and add_custom_command commands.
+
+
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/custom_install.cmake:13 (_install):
+  _install TARGETS given target "kolt" which does not exist.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:175 (install)
+
+
+make: *** [cmake_check_build_system] Error 1

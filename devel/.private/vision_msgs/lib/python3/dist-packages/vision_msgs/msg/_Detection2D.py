@@ -5,10 +5,10 @@ python3 = True if sys.hexversion > 0x03000000 else False
 import genpy
 import struct
 
-import vision_msgs.msg
-import sensor_msgs.msg
 import std_msgs.msg
+import sensor_msgs.msg
 import geometry_msgs.msg
+import vision_msgs.msg
 
 class Detection2D(genpy.Message):
   _md5sum = "9e11092151fa150724a255fbac727f3b"
@@ -514,51 +514,51 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_5d3I = None
-def _get_struct_5d3I():
-    global _struct_5d3I
-    if _struct_5d3I is None:
-        _struct_5d3I = struct.Struct("<5d3I")
-    return _struct_5d3I
 _struct_4d = None
 def _get_struct_4d():
     global _struct_4d
     if _struct_4d is None:
         _struct_4d = struct.Struct("<4d")
     return _struct_4d
-_struct_3d = None
-def _get_struct_3d():
-    global _struct_3d
-    if _struct_3d is None:
-        _struct_3d = struct.Struct("<3d")
-    return _struct_3d
 _struct_2I = None
 def _get_struct_2I():
     global _struct_2I
     if _struct_2I is None:
         _struct_2I = struct.Struct("<2I")
     return _struct_2I
-_struct_36d = None
-def _get_struct_36d():
-    global _struct_36d
-    if _struct_36d is None:
-        _struct_36d = struct.Struct("<36d")
-    return _struct_36d
+_struct_5d3I = None
+def _get_struct_5d3I():
+    global _struct_5d3I
+    if _struct_5d3I is None:
+        _struct_5d3I = struct.Struct("<5d3I")
+    return _struct_5d3I
 _struct_BI = None
 def _get_struct_BI():
     global _struct_BI
     if _struct_BI is None:
         _struct_BI = struct.Struct("<BI")
     return _struct_BI
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
 _struct_qd = None
 def _get_struct_qd():
     global _struct_qd
     if _struct_qd is None:
         _struct_qd = struct.Struct("<qd")
     return _struct_qd
+_struct_36d = None
+def _get_struct_36d():
+    global _struct_36d
+    if _struct_36d is None:
+        _struct_36d = struct.Struct("<36d")
+    return _struct_36d
+_struct_3d = None
+def _get_struct_3d():
+    global _struct_3d
+    if _struct_3d is None:
+        _struct_3d = struct.Struct("<3d")
+    return _struct_3d
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I

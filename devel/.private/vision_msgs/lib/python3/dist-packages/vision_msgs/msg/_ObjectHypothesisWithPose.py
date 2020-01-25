@@ -174,15 +174,15 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_q8d = None
-def _get_struct_q8d():
-    global _struct_q8d
-    if _struct_q8d is None:
-        _struct_q8d = struct.Struct("<q8d")
-    return _struct_q8d
 _struct_36d = None
 def _get_struct_36d():
     global _struct_36d
     if _struct_36d is None:
         _struct_36d = struct.Struct("<36d")
     return _struct_36d
+_struct_q8d = None
+def _get_struct_q8d():
+    global _struct_q8d
+    if _struct_q8d is None:
+        _struct_q8d = struct.Struct("<q8d")
+    return _struct_q8d

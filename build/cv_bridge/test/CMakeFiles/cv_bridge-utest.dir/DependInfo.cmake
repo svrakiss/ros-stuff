@@ -22,10 +22,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/nvidia/catkin_build_ws/src/vision_opencv/cv_bridge/include"
-  "/usr/include/opencv4"
   "/opt/ros/melodic/include"
   "/home/nvidia/catkin_build_ws/src/vision_opencv/cv_bridge/test/../src"
   "/usr/src/googletest/googletest/include"
+  "/usr/include/opencv4"
   )
 
 # Targets to which this target links.

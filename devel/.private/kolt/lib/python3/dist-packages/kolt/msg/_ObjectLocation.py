@@ -229,15 +229,15 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
 _struct_2i3d = None
 def _get_struct_2i3d():
     global _struct_2i3d
     if _struct_2i3d is None:
         _struct_2i3d = struct.Struct("<2i3d")
     return _struct_2i3d
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I

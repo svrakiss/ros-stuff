@@ -30,26 +30,345 @@
 [36mInstall the project...[0m
 -- Install configuration: ""
 -- Installing: /home/nvidia/catkin_build_ws/install/_setup_util.py
--- Installing: /home/nvidia/catkin_build_ws/install/env.sh
--- Installing: /home/nvidia/catkin_build_ws/install/setup.bash
--- Installing: /home/nvidia/catkin_build_ws/install/local_setup.bash
--- Installing: /home/nvidia/catkin_build_ws/install/setup.sh
--- Installing: /home/nvidia/catkin_build_ws/install/local_setup.sh
--- Installing: /home/nvidia/catkin_build_ws/install/setup.zsh
--- Installing: /home/nvidia/catkin_build_ws/install/local_setup.zsh
--- Installing: /home/nvidia/catkin_build_ws/install/.rosinstall
+-- Up-to-date: /home/nvidia/catkin_build_ws/install/env.sh
+-- Up-to-date: /home/nvidia/catkin_build_ws/install/setup.bash
+-- Up-to-date: /home/nvidia/catkin_build_ws/install/local_setup.bash
+-- Up-to-date: /home/nvidia/catkin_build_ws/install/setup.sh
+-- Up-to-date: /home/nvidia/catkin_build_ws/install/local_setup.sh
+-- Up-to-date: /home/nvidia/catkin_build_ws/install/setup.zsh
+-- Up-to-date: /home/nvidia/catkin_build_ws/install/local_setup.zsh
+-- Up-to-date: /home/nvidia/catkin_build_ws/install/.rosinstall
 + cd /home/nvidia/catkin_build_ws/src/kolt_ros
 + mkdir -p /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages
-+ /usr/bin/env PYTHONPATH=/home/nvidia/catkin_build_ws/install/lib/python3/dist-packages:/home/nvidia/catkin_build_ws/build/kolt/lib/python3/dist-packages:/home/nvidia/catkin_build_ws/install/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/home/nvidia/catkin_build_ws/devel/lib/python3/dist-packages:/usr/local/lib CATKIN_BINARY_DIR=/home/nvidia/catkin_build_ws/build/kolt /usr/bin/python3 /home/nvidia/catkin_build_ws/src/kolt_ros/setup.py build --build-base /home/nvidia/catkin_build_ws/build/kolt install --install-layout=deb --prefix=/home/nvidia/catkin_build_ws/install --install-scripts=/home/nvidia/catkin_build_ws/install/bin
++ /usr/bin/env PYTHONPATH=/home/nvidia/catkin_build_ws/install/lib/python3/dist-packages:/home/nvidia/catkin_build_ws/build/kolt/lib/python3/dist-packages:/home/nvidia/catkin_build_ws/install/lib/python3/dist-packages:/home/nvidia/catkin_build_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/usr/local/lib CATKIN_BINARY_DIR=/home/nvidia/catkin_build_ws/build/kolt /usr/bin/python3 /home/nvidia/catkin_build_ws/src/kolt_ros/setup.py build --build-base /home/nvidia/catkin_build_ws/build/kolt install --install-layout=deb --prefix=/home/nvidia/catkin_build_ws/install --install-scripts=/home/nvidia/catkin_build_ws/install/bin
 running build
 running build_py
 running install
+running bdist_egg
+running egg_info
+creating src/kolt.egg-info
+writing src/kolt.egg-info/PKG-INFO
+writing dependency_links to src/kolt.egg-info/dependency_links.txt
+writing requirements to src/kolt.egg-info/requires.txt
+writing top-level names to src/kolt.egg-info/top_level.txt
+writing manifest file 'src/kolt.egg-info/SOURCES.txt'
+reading manifest file 'src/kolt.egg-info/SOURCES.txt'
+writing manifest file 'src/kolt.egg-info/SOURCES.txt'
+installing library code to /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg
 running install_lib
-running install_egg_info
-Removing /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages/kolt-1.0.0.egg-info
-Writing /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages/kolt-1.0.0.egg-info
-/usr/lib/python3.6/distutils/dist.py:261: UserWarning: Unknown distribution option: 'install_requires'
-  warnings.warn(msg)
+creating /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64
+creating /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg
+creating /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core
+copying /home/nvidia/catkin_build_ws/build/kolt/lib/core/preprocessing.py -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core
+copying /home/nvidia/catkin_build_ws/build/kolt/lib/core/utils.py -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core
+copying /home/nvidia/catkin_build_ws/build/kolt/lib/core/tracker.py -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core
+copying /home/nvidia/catkin_build_ws/build/kolt/lib/core/kalman_filter.py -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core
+copying /home/nvidia/catkin_build_ws/build/kolt/lib/core/__init__.py -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core
+copying /home/nvidia/catkin_build_ws/build/kolt/lib/core/backend.py -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core
+copying /home/nvidia/catkin_build_ws/build/kolt/lib/core/frontend.py -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core
+byte-compiling /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core/preprocessing.py to preprocessing.cpython-36.pyc
+byte-compiling /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core/utils.py to utils.cpython-36.pyc
+byte-compiling /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core/tracker.py to tracker.cpython-36.pyc
+byte-compiling /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core/kalman_filter.py to kalman_filter.cpython-36.pyc
+byte-compiling /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core/backend.py to backend.cpython-36.pyc
+byte-compiling /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/core/frontend.py to frontend.cpython-36.pyc
+creating /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/EGG-INFO
+copying src/kolt.egg-info/PKG-INFO -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/EGG-INFO
+copying src/kolt.egg-info/SOURCES.txt -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/EGG-INFO
+copying src/kolt.egg-info/dependency_links.txt -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/EGG-INFO
+copying src/kolt.egg-info/requires.txt -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/EGG-INFO
+copying src/kolt.egg-info/top_level.txt -> /home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/kolt-1.0.0-py3.6.egg' and adding '/home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg' to it
+removing '/home/nvidia/catkin_build_ws/build/kolt/bdist.linux-aarch64/egg' (and everything under it)
+Creating /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages/site.py
+Processing kolt-1.0.0-py3.6.egg
+Copying kolt-1.0.0-py3.6.egg to /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages
+Adding kolt 1.0.0 to easy-install.pth file
+
+Installed /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages/kolt-1.0.0-py3.6.egg
+Processing dependencies for kolt==1.0.0
+Searching for tensorflow-gpu==2.0.0+nv19.12.tf2
+Best match: tensorflow-gpu 2.0.0+nv19.12.tf2
+Adding tensorflow-gpu 2.0.0+nv19.12.tf2 to easy-install.pth file
+Installing saved_model_cli script to /home/nvidia/catkin_build_ws/install/bin
+Installing tensorboard script to /home/nvidia/catkin_build_ws/install/bin
+Installing tf_upgrade_v2 script to /home/nvidia/catkin_build_ws/install/bin
+Installing tflite_convert script to /home/nvidia/catkin_build_ws/install/bin
+Installing toco script to /home/nvidia/catkin_build_ws/install/bin
+Installing toco_from_protos script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for imgaug==0.3.0
+Best match: imgaug 0.3.0
+Adding imgaug 0.3.0 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for h5py==2.9.0
+Best match: h5py 2.9.0
+Adding h5py 2.9.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for opencv-python==4.2.0+6b55cee
+Best match: opencv-python 4.2.0+6b55cee
+Processing opencv_python-4.2.0+6b55cee-py3.6-linux-aarch64.egg
+Adding opencv-python 4.2.0+6b55cee to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages/opencv_python-4.2.0+6b55cee-py3.6-linux-aarch64.egg
+Searching for Keras==2.3.1
+Best match: Keras 2.3.1
+Adding Keras 2.3.1 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for scikit-learn==0.22.1
+Best match: scikit-learn 0.22.1
+Adding scikit-learn 0.22.1 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for scipy==1.3.3
+Best match: scipy 1.3.3
+Processing scipy-1.3.3-py3.6-linux-aarch64.egg
+Adding scipy 1.3.3 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages/scipy-1.3.3-py3.6-linux-aarch64.egg
+Searching for numpy==1.16.1
+Best match: numpy 1.16.1
+Adding numpy 1.16.1 to easy-install.pth file
+Installing f2py script to /home/nvidia/catkin_build_ws/install/bin
+Installing f2py3 script to /home/nvidia/catkin_build_ws/install/bin
+Installing f2py3.6 script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for tensorboard==2.0.2
+Best match: tensorboard 2.0.2
+Adding tensorboard 2.0.2 to easy-install.pth file
+Installing tensorboard script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for tensorflow-estimator==2.0.1
+Best match: tensorflow-estimator 2.0.1
+Adding tensorflow-estimator 2.0.1 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for six==1.13.0
+Best match: six 1.13.0
+Adding six 1.13.0 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for termcolor==1.1.0
+Best match: termcolor 1.1.0
+Adding termcolor 1.1.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for gast==0.2.2
+Best match: gast 0.2.2
+Adding gast 0.2.2 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for wrapt==1.11.2
+Best match: wrapt 1.11.2
+Adding wrapt 1.11.2 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for grpcio==1.26.0
+Best match: grpcio 1.26.0
+Adding grpcio 1.26.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for absl-py==0.9.0
+Best match: absl-py 0.9.0
+Adding absl-py 0.9.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for google-pasta==0.1.8
+Best match: google-pasta 0.1.8
+Adding google-pasta 0.1.8 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for protobuf==3.11.2
+Best match: protobuf 3.11.2
+Adding protobuf 3.11.2 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for Keras-Applications==1.0.8
+Best match: Keras-Applications 1.0.8
+Adding Keras-Applications 1.0.8 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for astor==0.8.1
+Best match: astor 0.8.1
+Adding astor 0.8.1 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for wheel==0.30.0
+Best match: wheel 0.30.0
+Adding wheel 0.30.0 to easy-install.pth file
+Installing wheel script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/lib/python3/dist-packages
+Searching for Keras-Preprocessing==1.0.5
+Best match: Keras-Preprocessing 1.0.5
+Adding Keras-Preprocessing 1.0.5 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for opt-einsum==3.1.0
+Best match: opt-einsum 3.1.0
+Adding opt-einsum 3.1.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for matplotlib==2.1.1
+Best match: matplotlib 2.1.1
+Adding matplotlib 2.1.1 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for Shapely==1.6.4.post2
+Best match: Shapely 1.6.4.post2
+Adding Shapely 1.6.4.post2 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for opencv-python-headless==4.2.0+6b55cee
+Best match: opencv-python-headless 4.2.0+6b55cee
+Processing opencv_python_headless-4.2.0+6b55cee-py3.6-linux-aarch64.egg
+Adding opencv-python-headless 4.2.0+6b55cee to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages/opencv_python_headless-4.2.0+6b55cee-py3.6-linux-aarch64.egg
+Searching for imageio==2.6.1
+Best match: imageio 2.6.1
+Adding imageio 2.6.1 to easy-install.pth file
+Installing imageio_download_bin script to /home/nvidia/catkin_build_ws/install/bin
+Installing imageio_remove_bin script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for scikit-image==0.16.2
+Best match: scikit-image 0.16.2
+Adding scikit-image 0.16.2 to easy-install.pth file
+Installing skivi script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for Pillow==5.1.0
+Best match: Pillow 5.1.0
+Adding Pillow 5.1.0 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for PyYAML==3.12
+Best match: PyYAML 3.12
+Adding PyYAML 3.12 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for joblib==0.14.1
+Best match: joblib 0.14.1
+Adding joblib 0.14.1 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for google-auth==1.10.1
+Best match: google-auth 1.10.1
+Adding google-auth 1.10.1 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for requests==2.22.0
+Best match: requests 2.22.0
+Adding requests 2.22.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for Werkzeug==0.16.0
+Best match: Werkzeug 0.16.0
+Adding Werkzeug 0.16.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for Markdown==3.1.1
+Best match: Markdown 3.1.1
+Adding Markdown 3.1.1 to easy-install.pth file
+Installing markdown_py script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for setuptools==45.1.0
+Best match: setuptools 45.1.0
+Adding setuptools 45.1.0 to easy-install.pth file
+Installing easy_install script to /home/nvidia/catkin_build_ws/install/bin
+Installing easy_install-3.8 script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for google-auth-oauthlib==0.4.1
+Best match: google-auth-oauthlib 0.4.1
+Adding google-auth-oauthlib 0.4.1 to easy-install.pth file
+Installing google-oauthlib-tool script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for PyWavelets==1.1.1
+Best match: PyWavelets 1.1.1
+Adding PyWavelets 1.1.1 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for networkx==2.4
+Best match: networkx 2.4
+Adding networkx 2.4 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for rsa==4.0
+Best match: rsa 4.0
+Adding rsa 4.0 to easy-install.pth file
+Installing pyrsa-decrypt script to /home/nvidia/catkin_build_ws/install/bin
+Installing pyrsa-encrypt script to /home/nvidia/catkin_build_ws/install/bin
+Installing pyrsa-keygen script to /home/nvidia/catkin_build_ws/install/bin
+Installing pyrsa-priv2pub script to /home/nvidia/catkin_build_ws/install/bin
+Installing pyrsa-sign script to /home/nvidia/catkin_build_ws/install/bin
+Installing pyrsa-verify script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for cachetools==4.0.0
+Best match: cachetools 4.0.0
+Adding cachetools 4.0.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for pyasn1-modules==0.2.8
+Best match: pyasn1-modules 0.2.8
+Adding pyasn1-modules 0.2.8 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for certifi==2018.1.18
+Best match: certifi 2018.1.18
+Adding certifi 2018.1.18 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for urllib3==1.22
+Best match: urllib3 1.22
+Adding urllib3 1.22 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for chardet==3.0.4
+Best match: chardet 3.0.4
+Adding chardet 3.0.4 to easy-install.pth file
+Installing chardetect script to /home/nvidia/catkin_build_ws/install/bin
+
+Using /usr/lib/python3/dist-packages
+Searching for idna==2.6
+Best match: idna 2.6
+Adding idna 2.6 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Searching for requests-oauthlib==1.3.0
+Best match: requests-oauthlib 1.3.0
+Adding requests-oauthlib 1.3.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for decorator==4.4.1
+Best match: decorator 4.4.1
+Adding decorator 4.4.1 to easy-install.pth file
+
+Using /home/nvidia/.local/lib/python3.6/site-packages
+Searching for pyasn1==0.4.8
+Best match: pyasn1 0.4.8
+Adding pyasn1 0.4.8 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Searching for oauthlib==3.1.0
+Best match: oauthlib 3.1.0
+Adding oauthlib 3.1.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.6/dist-packages
+Finished processing dependencies for kolt==1.0.0
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/share/kolt/msg/ObjectLocation.msg
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/share/kolt/msg/ObjectLocationArray.msg
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/share/kolt/srv/YoloDetect.srv
@@ -110,9 +429,12 @@ Listing '/home/nvidia/catkin_build_ws/devel/.private/kolt/lib/python3/dist-packa
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages/kolt/srv/_YoloDetect.py
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages/kolt/srv/__init__.py
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/lib/python3/dist-packages/kolt/__init__.py
--- Up-to-date: /home/nvidia/catkin_build_ws/install/lib/pkgconfig/kolt.pc
+-- Installing: /home/nvidia/catkin_build_ws/install/lib/pkgconfig/kolt.pc
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/share/kolt/cmake/kolt-msg-extras.cmake
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/share/kolt/cmake/koltConfig.cmake
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/share/kolt/cmake/koltConfig-version.cmake
 -- Up-to-date: /home/nvidia/catkin_build_ws/install/share/kolt/package.xml
--- Up-to-date: /home/nvidia/catkin_build_ws/install/lib/kolt/yolo_predict.py
+-- Installing: /home/nvidia/catkin_build_ws/install/lib/kolt/yolo_predict.py
+-- Installing: /home/nvidia/catkin_build_ws/install/lib/kolt/yolo_server.py
+-- Installing: /home/nvidia/catkin_build_ws/install/lib/kolt/yolo_train.py
+-- Installing: /home/nvidia/catkin_build_ws/install/lib/kolt/vision_pose.py

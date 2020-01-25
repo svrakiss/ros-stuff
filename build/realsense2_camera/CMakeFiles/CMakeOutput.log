@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/nvidia/catkin_build_ws/b
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1502d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1502d.dir/build.make CMakeFiles/cmTC_1502d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_848a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_848a6.dir/build.make CMakeFiles/cmTC_848a6.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1502d.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1502d.dir/testCCompiler.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_1502d
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1502d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1502d.dir/testCCompiler.c.o  -o cmTC_1502d 
+Building C object CMakeFiles/cmTC_848a6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_848a6.dir/testCCompiler.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_848a6
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_848a6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_848a6.dir/testCCompiler.c.o  -o cmTC_848a6 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f30e0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f30e0.dir/build.make CMakeFiles/cmTC_f30e0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0f452/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f452.dir/build.make CMakeFiles/cmTC_0f452.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o   -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_f30e0
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f30e0.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o  -o cmTC_f30e0 
+Building C object CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o   -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0f452
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f452.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o  -o cmTC_0f452 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f30e0' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHe1KV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_f30e0 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f30e0' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0f452' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxPDVdp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_0f452 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0f452' '-mlittle-endian' '-mabi=lp64'
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f30e0/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f30e0.dir/build.make CMakeFiles/cmTC_f30e0.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0f452/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0f452.dir/build.make CMakeFiles/cmTC_0f452.dir/build]
   ignore line: [make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o   -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_f30e0]
-  ignore line: [/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f30e0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o  -o cmTC_f30e0 ]
+  ignore line: [Building C object CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o   -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0f452]
+  ignore line: [/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f452.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o  -o cmTC_0f452 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f30e0' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHe1KV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_f30e0 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0f452' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxPDVdp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_0f452 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccrHe1KV.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxPDVdp.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f30e0] ==> ignore
+    arg [cmTC_0f452] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_f30e0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0f452.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,14 +158,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_747ee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_747ee.dir/build.make CMakeFiles/cmTC_747ee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_63209/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63209.dir/build.make CMakeFiles/cmTC_63209.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_747ee.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_747ee.dir/feature_tests.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.c
-Linking C executable cmTC_747ee
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_747ee.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_747ee.dir/feature_tests.c.o  -o cmTC_747ee 
+Building C object CMakeFiles/cmTC_63209.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_63209.dir/feature_tests.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.c
+Linking C executable cmTC_63209
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63209.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_63209.dir/feature_tests.c.o  -o cmTC_63209 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +178,14 @@ make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e5aa6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e5aa6.dir/build.make CMakeFiles/cmTC_e5aa6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_698da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_698da.dir/build.make CMakeFiles/cmTC_698da.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5aa6.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e5aa6.dir/feature_tests.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e5aa6
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5aa6.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e5aa6.dir/feature_tests.c.o  -o cmTC_e5aa6 
+Building C object CMakeFiles/cmTC_698da.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_698da.dir/feature_tests.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.c
+Linking C executable cmTC_698da
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_698da.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_698da.dir/feature_tests.c.o  -o cmTC_698da 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -198,14 +198,14 @@ make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_30988/fast"
-/usr/bin/make -f CMakeFiles/cmTC_30988.dir/build.make CMakeFiles/cmTC_30988.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ab499/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab499.dir/build.make CMakeFiles/cmTC_ab499.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_30988.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_30988.dir/feature_tests.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.c
-Linking C executable cmTC_30988
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30988.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_30988.dir/feature_tests.c.o  -o cmTC_30988 
+Building C object CMakeFiles/cmTC_ab499.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_ab499.dir/feature_tests.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ab499
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab499.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ab499.dir/feature_tests.c.o  -o cmTC_ab499 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -216,28 +216,28 @@ make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dd1d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dd1d7.dir/build.make CMakeFiles/cmTC_dd1d7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a590d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a590d.dir/build.make CMakeFiles/cmTC_a590d.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dd1d7.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_dd1d7.dir/testCXXCompiler.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_dd1d7
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd1d7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_dd1d7.dir/testCXXCompiler.cxx.o  -o cmTC_dd1d7 
+Building CXX object CMakeFiles/cmTC_a590d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a590d.dir/testCXXCompiler.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a590d
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a590d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a590d.dir/testCXXCompiler.cxx.o  -o cmTC_a590d 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_47101/fast"
-/usr/bin/make -f CMakeFiles/cmTC_47101.dir/build.make CMakeFiles/cmTC_47101.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4a5e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a5e7.dir/build.make CMakeFiles/cmTC_4a5e7.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_47101
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47101.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_47101 
+Building CXX object CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4a5e7
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a5e7.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4a5e7 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -247,9 +247,9 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_47101' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cch8bOGM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_47101 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_47101' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4a5e7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXyDLwv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_4a5e7 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4a5e7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -257,14 +257,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_47101/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_47101.dir/build.make CMakeFiles/cmTC_47101.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4a5e7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4a5e7.dir/build.make CMakeFiles/cmTC_4a5e7.dir/build]
   ignore line: [make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_47101]
-  ignore line: [/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47101.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_47101 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4a5e7]
+  ignore line: [/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a5e7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4a5e7 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -274,13 +274,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_47101' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cch8bOGM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_47101 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4a5e7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXyDLwv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_4a5e7 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cch8bOGM.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccXyDLwv.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_47101] ==> ignore
+    arg [cmTC_4a5e7] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_47101.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4a5e7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,14 +342,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88ec7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88ec7.dir/build.make CMakeFiles/cmTC_88ec7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_32821/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32821.dir/build.make CMakeFiles/cmTC_32821.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_88ec7.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_88ec7.dir/feature_tests.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_88ec7
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ec7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_88ec7.dir/feature_tests.cxx.o  -o cmTC_88ec7 
+Building CXX object CMakeFiles/cmTC_32821.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_32821.dir/feature_tests.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_32821
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32821.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_32821.dir/feature_tests.cxx.o  -o cmTC_32821 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -415,14 +415,14 @@ make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ca180/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ca180.dir/build.make CMakeFiles/cmTC_ca180.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_12376/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12376.dir/build.make CMakeFiles/cmTC_12376.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ca180.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_ca180.dir/feature_tests.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ca180
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca180.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ca180.dir/feature_tests.cxx.o  -o cmTC_ca180 
+Building CXX object CMakeFiles/cmTC_12376.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_12376.dir/feature_tests.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_12376
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12376.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_12376.dir/feature_tests.cxx.o  -o cmTC_12376 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -488,14 +488,14 @@ make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ba2fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ba2fd.dir/build.make CMakeFiles/cmTC_ba2fd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_570d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_570d0.dir/build.make CMakeFiles/cmTC_570d0.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ba2fd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_ba2fd.dir/feature_tests.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ba2fd
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba2fd.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ba2fd.dir/feature_tests.cxx.o  -o cmTC_ba2fd 
+Building CXX object CMakeFiles/cmTC_570d0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_570d0.dir/feature_tests.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_570d0
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_570d0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_570d0.dir/feature_tests.cxx.o  -o cmTC_570d0 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -561,14 +561,14 @@ make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8d69c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8d69c.dir/build.make CMakeFiles/cmTC_8d69c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_df960/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df960.dir/build.make CMakeFiles/cmTC_df960.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8d69c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_8d69c.dir/feature_tests.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8d69c
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d69c.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8d69c.dir/feature_tests.cxx.o  -o cmTC_8d69c 
+Building CXX object CMakeFiles/cmTC_df960.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_df960.dir/feature_tests.cxx.o -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_df960
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df960.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_df960.dir/feature_tests.cxx.o  -o cmTC_df960 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
@@ -632,28 +632,28 @@ make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7cb41/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7cb41.dir/build.make CMakeFiles/cmTC_7cb41.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_70e94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70e94.dir/build.make CMakeFiles/cmTC_70e94.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7cb41.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7cb41.dir/CheckIncludeFile.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_7cb41
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cb41.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7cb41.dir/CheckIncludeFile.c.o  -o cmTC_7cb41 
+Building C object CMakeFiles/cmTC_70e94.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_70e94.dir/CheckIncludeFile.c.o   -c /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_70e94
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70e94.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_70e94.dir/CheckIncludeFile.c.o  -o cmTC_70e94 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b6f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6b6f4.dir/build.make CMakeFiles/cmTC_6b6f4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0f6ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f6ff.dir/build.make CMakeFiles/cmTC_0f6ff.dir/build
 make[1]: Entering directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b6f4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6b6f4.dir/CheckFunctionExists.c.o   -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6b6f4
-/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b6f4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6b6f4.dir/CheckFunctionExists.c.o  -o cmTC_6b6f4 -lpthread 
+Building C object CMakeFiles/cmTC_0f6ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0f6ff.dir/CheckFunctionExists.c.o   -c /home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0f6ff
+/home/nvidia/catkin_build_ws/src/kolt_ros/cmake-3.13.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6ff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0f6ff.dir/CheckFunctionExists.c.o  -o cmTC_0f6ff -lpthread 
 make[1]: Leaving directory '/home/nvidia/catkin_build_ws/build/realsense2_camera/CMakeFiles/CMakeTmp'
 
 

@@ -54,3 +54,13 @@
 /home/nvidia/catkin_build_ws/install/share/kolt/cmake/koltConfig-version.cmake
 /home/nvidia/catkin_build_ws/install/share/kolt/package.xml
 /home/nvidia/catkin_build_ws/install/lib/kolt/yolo_predict.py
+/home/nvidia/catkin_build_ws/install/lib/kolt/yolo_server.py
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/yr_zed_camera_person.launch
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/includes/.yolo_server_person.launch.swp
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/includes/yolo_server_person.launch
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/includes/yolo_server.launch
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/yr_single_camera.launch
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/yr_multiple_cameras.launch
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/k_rs_camera.launch
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/yr_zed_camera.launch
+/home/nvidia/catkin_build_ws/install/share/kolt/launch/yr_train.launch

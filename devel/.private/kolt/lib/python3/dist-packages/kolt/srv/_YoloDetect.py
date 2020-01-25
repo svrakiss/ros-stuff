@@ -5,8 +5,8 @@ python3 = True if sys.hexversion > 0x03000000 else False
 import genpy
 import struct
 
-import std_msgs.msg
 import sensor_msgs.msg
+import std_msgs.msg
 
 class YoloDetectRequest(genpy.Message):
   _md5sum = "b13d2865c5af2a64e6e30ab1b56e1dd5"
@@ -289,10 +289,10 @@ python3 = True if sys.hexversion > 0x03000000 else False
 import genpy
 import struct
 
-import std_msgs.msg
 import geometry_msgs.msg
 import vision_msgs.msg
 import sensor_msgs.msg
+import std_msgs.msg
 
 class YoloDetectResponse(genpy.Message):
   _md5sum = "63a2d9433b72458acbe38ed3a7c6e45a"
@@ -921,24 +921,6 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_4d = None
-def _get_struct_4d():
-    global _struct_4d
-    if _struct_4d is None:
-        _struct_4d = struct.Struct("<4d")
-    return _struct_4d
-_struct_2d = None
-def _get_struct_2d():
-    global _struct_2d
-    if _struct_2d is None:
-        _struct_2d = struct.Struct("<2d")
-    return _struct_2d
-_struct_2I = None
-def _get_struct_2I():
-    global _struct_2I
-    if _struct_2I is None:
-        _struct_2I = struct.Struct("<2I")
-    return _struct_2I
 _struct_3I = None
 def _get_struct_3I():
     global _struct_3I
@@ -957,18 +939,36 @@ def _get_struct_36d():
     if _struct_36d is None:
         _struct_36d = struct.Struct("<36d")
     return _struct_36d
-_struct_qd = None
-def _get_struct_qd():
-    global _struct_qd
-    if _struct_qd is None:
-        _struct_qd = struct.Struct("<qd")
-    return _struct_qd
 _struct_3d = None
 def _get_struct_3d():
     global _struct_3d
     if _struct_3d is None:
         _struct_3d = struct.Struct("<3d")
     return _struct_3d
+_struct_2I = None
+def _get_struct_2I():
+    global _struct_2I
+    if _struct_2I is None:
+        _struct_2I = struct.Struct("<2I")
+    return _struct_2I
+_struct_2d = None
+def _get_struct_2d():
+    global _struct_2d
+    if _struct_2d is None:
+        _struct_2d = struct.Struct("<2d")
+    return _struct_2d
+_struct_qd = None
+def _get_struct_qd():
+    global _struct_qd
+    if _struct_qd is None:
+        _struct_qd = struct.Struct("<qd")
+    return _struct_qd
+_struct_4d = None
+def _get_struct_4d():
+    global _struct_4d
+    if _struct_4d is None:
+        _struct_4d = struct.Struct("<4d")
+    return _struct_4d
 class YoloDetect(object):
   _type          = 'kolt/YoloDetect'
   _md5sum = '0c98907c2772621acd431740725bdb9a'

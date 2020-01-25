@@ -311,15 +311,15 @@ def _get_struct_3I():
     if _struct_3I is None:
         _struct_3I = struct.Struct("<3I")
     return _struct_3I
-_struct_2I = None
-def _get_struct_2I():
-    global _struct_2I
-    if _struct_2I is None:
-        _struct_2I = struct.Struct("<2I")
-    return _struct_2I
 _struct_2i3d = None
 def _get_struct_2i3d():
     global _struct_2i3d
     if _struct_2i3d is None:
         _struct_2i3d = struct.Struct("<2i3d")
     return _struct_2i3d
+_struct_2I = None
+def _get_struct_2I():
+    global _struct_2I
+    if _struct_2I is None:
+        _struct_2I = struct.Struct("<2I")
+    return _struct_2I

@@ -5,9 +5,9 @@ python3 = True if sys.hexversion > 0x03000000 else False
 import genpy
 import struct
 
+import std_msgs.msg
 import vision_msgs.msg
 import sensor_msgs.msg
-import std_msgs.msg
 
 class Classification2D(genpy.Message):
   _md5sum = "b23d0855d0f41568e09106615351255f"
@@ -378,18 +378,18 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_2I = None
-def _get_struct_2I():
-    global _struct_2I
-    if _struct_2I is None:
-        _struct_2I = struct.Struct("<2I")
-    return _struct_2I
 _struct_BI = None
 def _get_struct_BI():
     global _struct_BI
     if _struct_BI is None:
         _struct_BI = struct.Struct("<BI")
     return _struct_BI
+_struct_2I = None
+def _get_struct_2I():
+    global _struct_2I
+    if _struct_2I is None:
+        _struct_2I = struct.Struct("<2I")
+    return _struct_2I
 _struct_qd = None
 def _get_struct_qd():
     global _struct_qd
