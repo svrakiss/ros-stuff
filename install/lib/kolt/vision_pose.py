@@ -145,8 +145,8 @@ class VisionPose(object):
         for i, detect in enumerate(detection.detections):
             depth_image = detect.source_img
             
-            x_center = int(detect.bbox.center.x)
-            y_center = int(detect.bbox.center.y)
+            x_center = int(detect.bbox.center.x)-1
+            y_center = int(detect.bbox.center.y)-1
             try:
                 cv_depth_image = None
                 center_pixel_depth = None

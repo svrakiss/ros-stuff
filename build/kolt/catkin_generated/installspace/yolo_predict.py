@@ -93,7 +93,7 @@ class Yolov2Ros(object):
             ymin = int(box.center.y - (box.size_y/2))
             ymax = int(box.center.y + (box.size_y/2))
 
-            cv2.rectangle(image, (xmin,ymin), (xmax,ymax), (0,255,0), 3)
+            cv2.rectangle(image, (int(xmin),int(ymin)), (int(xmax),int(ymax)), (0,255,0), 3)
             cv2.putText(image, 
                         str(detect.results[0].score), 
                         (xmin, ymin - 13), 

@@ -4,7 +4,7 @@ import tensorflow as tf
 from keras.layers import Reshape, Activation, Conv2D, Input, MaxPooling2D, BatchNormalization, Flatten, Dense, Lambda
 from keras.layers.advanced_activations import LeakyReLU
 from keras.layers.merge import concatenate
-from keras.applications.mobilenet import MobileNet
+from keras.applications.mobilenet_v2 import MobileNetV2
 from keras.applications import InceptionV3
 from keras.applications.vgg16 import VGG16
 from keras.applications.resnet50 import ResNet50
@@ -12,7 +12,7 @@ import rospkg, rospy
 
 TINY_YOLO_BACKEND_PATH  = "../../weights/tiny_yolo_backend.h5"   # should be hosted on a server
 SQUEEZENET_BACKEND_PATH = "../../weights/squeezenet_backend.h5"  # should be hosted on a server
-MOBILENET_BACKEND_PATH  = "../../weights/mobilenet_backend.h5"   # should be hosted on a server
+MOBILENET_BACKEND_PATH  = "/home/nvidia/.keras/models/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_224_no_top.h5"   # should be hosted on a server
 INCEPTION3_BACKEND_PATH = "../../weights/inception_backend.h5"   # should be hosted on a server
 VGG16_BACKEND_PATH      = "../../weights/vgg16_backend.h5"       # should be hosted on a server
 RESNET50_BACKEND_PATH   = "../../weights/resnet50_backend.h5"    # should be hosted on a server
@@ -206,7 +206,7 @@ class MobileNetFeature(BaseFeatureExtractor):
     def __init__(self, input_size, backend_path):
         input_image = Input(shape=(input_size, input_size, 3))
 
-        mobilenet = MobileNet(input_shape=(224,224,3), include_top=False)
+        mobilenet = MobileNetV2(input_shape=(224,224,3), include_top=False)
         mobilenet.load_weights(MOBILENET_BACKEND_PATH)
 
         x = mobilenet(input_image)
@@ -282,8 +282,8 @@ class Inception3Feature(BaseFeatureExtractor):
     def __init__(self, input_size, backend_path):
         input_image = Input(shape=(input_size, input_size, 3))
 
-        inception = InceptionV3(input_shape=(input_size,input_size,3), include_top=False)
-        inception.load_weights(INCEPTION3_BACKEND_PATH)
+        inception = InceptionV3(input_shape=(input_size,input_size,3), include_top=False, weights='imagenet')
+#        inception.load_weights(INCEPTION3_BACKEND_PATH)
 
         x = inception(input_image)
 

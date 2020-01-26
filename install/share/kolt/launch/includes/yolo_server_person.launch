@@ -1,7 +1,7 @@
 <launch>
     <node pkg="kolt" name="yolo_server" type="yolo_server.py" output="screen">
         <param name="n_gpu" type="int" value="1" />
-        <param name="backend" type="str" value="vgg16" />
+        <param name="backend" type="str" value="mobile_net" />
         <param name="input_size" type="int" value="224" />
         <rosparam param="labels">["person"]</rosparam>
         <param name="max_number_detections" type="int" value="10" />
