@@ -1,0 +1,7 @@
+/usr/lib/python3.6/distutils/dist.py:261: UserWarning: Unknown distribution option: 'install_requires'
+  warnings.warn(msg)
+  File "/home/nvidia/catkin_build_ws/install/lib/python3/dist-packages/core/yolov3.py", line 456
+    rospy.loginfo("Current state of YOLOv3: {}".format(self.context))                                                                                                                                                  rospy.loginfo("inputs: {}".format(self.inputs))                                                                                                                                                                    rospy.loginfo("outputs: {}".format(self.outputs))
+                                                                                                                                                                                                                           ^
+SyntaxError: invalid syntax
+

@@ -14,7 +14,8 @@ d = generate_distutils_setup(
         'opencv-python',
         'h5py',
         'imgaug',
-        'tensorflow-gpu'
+        'tensorflow-gpu',
+        'pycuda'
     ],
 )
 

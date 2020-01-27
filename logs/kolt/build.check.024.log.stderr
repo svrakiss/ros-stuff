@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/opt/ros/melodic/share/catkin/cmake/interrogate_setup_dot_py.py", line 251, in <module>
+    main()
+  File "/opt/ros/melodic/share/catkin/cmake/interrogate_setup_dot_py.py", line 242, in main
+    runpy.run_path(args.setupfile_path)
+  File "/usr/lib/python3.6/runpy.py", line 263, in run_path
+    pkg_name=pkg_name, script_name=fname)
+  File "/usr/lib/python3.6/runpy.py", line 96, in _run_module_code
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/nvidia/catkin_build_ws/src/kolt_ros/setup.py", line 18, in <module>
+    pycuda
+NameError: name 'pycuda' is not defined
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+
+  execute_process(/home/nvidia/catkin_build_ws/build/kolt/catkin_generated/env_cached.sh
+  "/usr/bin/python3"
+  "/opt/ros/melodic/share/catkin/cmake/interrogate_setup_dot_py.py" "kolt"
+  "/home/nvidia/catkin_build_ws/src/kolt_ros/setup.py"
+  "/home/nvidia/catkin_build_ws/build/kolt/catkin_generated/setup_py_interrogation.cmake")
+  returned error code 1
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkin_python_setup.cmake:69 (safe_execute_process)
+  CMakeLists.txt:27 (catkin_python_setup)
+
+
+make: *** [cmake_check_build_system] Error 1
