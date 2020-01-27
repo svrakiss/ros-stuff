@@ -438,13 +438,18 @@ class TrtYOLOv3(object):
                 'nms_threshold': 0.5,
                 'yolo_input_resolution': input_shape
             }
+        rospy.loginfo("Setting postprocessor")
         self.postprocessor = PostprocessYOLO(**postprocessor_args)
-
+        rospy.loginfo("Setting trt logger")
         self.trt_logger = trt.Logger(trt.Logger.INFO)
+        rospy.loginfo("loading engine")
         self.engine = self._load_engine()
+        rospy.loginfo("creating context")
         self.context = self._create_context()
+        rospy.loginfo("Setting inputs, outputs, bindings, stream (allocating memory)")
         self.inputs, self.outputs, self.bindings, self.stream = \
             allocate_buffers(self.engine)
+        rospy.loginfo("Setting inference function")
         self.inference_fn = do_inference if trt.__version__[0] < '7' \
                                          else do_inference_v2
         # rospy.loginfo("Current state of YOLOv3: {}".format(self.context))
@@ -458,6 +463,7 @@ class TrtYOLOv3(object):
     #     rospy.loginfo("stream: {}".format(self.stream)) 
     def __del__(self):
         """Free CUDA memories."""
+        rospy.loginfo("Deconstructing YOLOv3")
         del self.stream
         del self.outputs
         del self.inputs
@@ -472,14 +478,14 @@ class TrtYOLOv3(object):
         # Set host input to the image. The do_inference() function
         # will copy the input to the GPU before executing.
         self.inputs[0].host = img_resized
-        rospy.loginfo("Just tried to access self.inputs[0].host")
+        rospy.loginfo("Just tried to access self.inputs[0].host. about to commence inference.")
         trt_outputs = self.inference_fn(
             context=self.context,
             bindings=self.bindings,
             inputs=self.inputs,
             outputs=self.outputs,
             stream=self.stream)
-        rospy.loginfo("set host input to the image.")
+        rospy.loginfo("Just completed inference. If there's no CUDA error between this and previous msg, you're ok")
         # Before doing post-processing, we need to reshape the outputs
         # as do_inference() will give us flat arrays.
         trt_outputs = [output.reshape(shape) for output, shape

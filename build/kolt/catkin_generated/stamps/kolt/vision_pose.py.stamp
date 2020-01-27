@@ -18,7 +18,7 @@ from std_msgs.msg import Header
 from tf.transformations import euler_from_quaternion, quaternion_from_euler
 from vision_msgs.msg import Detection2DArray
 from visualization_msgs.msg import Marker, MarkerArray
-
+import pyrealsense2 as rs
 from core import Tracker
 
 
@@ -55,6 +55,7 @@ class VisionPose(object):
             if cur_detection.header.stamp != last_detection.header.stamp:
                 vision_poses = self.get_vision_pose(cur_detection)
                 if vision_poses is not None:
+                    rospy.loginfo("I got one!")
                     tracked_poses, tracked_paths = self.tracker.update(vision_poses)
                     self._handle_pose_broadcast(tracked_poses, self.camera_frame)
                     self._handle_path_vis_broadcast(tracked_paths, self.camera_frame)
@@ -154,6 +155,7 @@ class VisionPose(object):
                     cv_depth_image = self.bridge.imgmsg_to_cv2(depth_image, "32FC1")
                     center_pixel_depth = cv_depth_image[y_center, x_center]
                 elif self.camera_type == 'realsense':
+                    # depth_image=np.asanyarray(depth_image) 
                     cv_depth_image = self.bridge.imgmsg_to_cv2(depth_image, "16UC1")
                     center_pixel_depth = cv_depth_image[y_center, x_center]/1000
                 else:
@@ -179,7 +181,7 @@ class VisionPose(object):
                     else:
                         app_array = np.array([object_x, object_y, object_z])[np.newaxis]
                         vision_poses = np.append(vision_poses, app_array, axis=0)
-                    # rospy.loginfo('Bearing: {} Depth: {}'.format(bearing_horiz, center_pixel_depth))
+                    rospy.loginfo('Bearing: {} Depth: {}'.format(bearing_horiz, center_pixel_depth))
             except CvBridgeError as e:
                 rospy.logerr(e)
 

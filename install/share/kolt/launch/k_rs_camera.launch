@@ -22,5 +22,6 @@
         <param name="odom_topic" type="str" value="/zed/odom" />
         <param name="horiz_fov" type="double" value="85.2" />
         <param name="vert_fov" type="double" value="58.0" />
+        <param name="camera_type" type="str" value="realsense"/>
     </node>
 </launch>

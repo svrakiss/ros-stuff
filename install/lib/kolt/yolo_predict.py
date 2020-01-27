@@ -51,27 +51,33 @@ class Yolov2Ros(object):
             cur_depth = self.depth_image
             if cur_img.header.stamp != last_image.header.stamp:
                 rospy.wait_for_service('yolo_detect')
+                dtype, n_channels = self.bridge.encoding_to_dtype_with_channels('16UC1')
                 try:
                     yolo_detect = rospy.ServiceProxy('yolo_detect', YoloDetect, persistent=True)
                     detected = yolo_detect(YoloDetectRequest(cur_img)).detection
                     
                     try:
                         cv_image = self.bridge.imgmsg_to_cv2(cur_img, "bgr8")
-                        # cv_depth_image = self.bridge.imgmsg_to_cv2(cur_img, "16UC1")
+                        # depth_image=np.asanyarray(cur_depth) 
+                        depth_image=cur_depth
+                        # rospy.loginfo("Encoding: ",format(depth_image.encoding))
+                        cv_depth_image = self.bridge.imgmsg_to_cv2(depth_image, "16UC1")
                     except CvBridgeError as e:
                         rospy.logerr(e)
                     
                     if len(detected.detections) > 0:
-                        # rospy.loginfo('Found {} bounding boxes'.format(len(detected.detection.detections)))
+                        rospy.loginfo('Found {} bounding boxes'.format(len(detected.detections)))
                         if self.image_type == 'rgbd':
                             for i in range(0,len(detected.detections)):
                                 detected.detections[i].source_img = cur_depth
                         else:
                             for i in range(0,len(detected.detections)):
                                 detected.detections[i].source_img = cur_img
+                        rospy.loginfo("publishing detections")
                         self.detect_pub.publish(detected)
                     
                     image = self._draw_boxes(cv_image, detected)
+                    rospy.loginfo("Publishing bounding boxes")
                     self.bounding_box_pub.publish(self.bridge.cv2_to_imgmsg(image, "bgr8"))
                 except rospy.ServiceException as e:
                     rospy.logerr(e)
@@ -86,6 +92,7 @@ class Yolov2Ros(object):
         self.depth_image = data
 
     def _draw_boxes(self, image, detected):
+        rospy.loginfo("drawing boxes")
         for detect in detected.detections:
             box = detect.bbox
             xmin = int(box.center.x - (box.size_x/2))

@@ -148,5 +148,4 @@ if __name__ == '__main__':
     try:
         ys = YoloServer()
     except rospy.ROSInterruptException:
-        self.__del__
         pass

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nvidia/catkin_build_ws/build/kolt
 include CMakeFiles/_kolt_generate_messages_check_deps_YoloDetect.dir/progress.make
 
 CMakeFiles/_kolt_generate_messages_check_deps_YoloDetect:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kolt /home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv vision_msgs/ObjectHypothesisWithPose:sensor_msgs/Image:geometry_msgs/Pose2D:geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/PoseWithCovariance:std_msgs/Header:vision_msgs/BoundingBox2D:geometry_msgs/Quaternion:vision_msgs/Detection2D:vision_msgs/Detection2DArray
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kolt /home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv std_msgs/Header:geometry_msgs/Pose2D:vision_msgs/Detection2DArray:geometry_msgs/PoseWithCovariance:vision_msgs/ObjectHypothesisWithPose:vision_msgs/BoundingBox2D:geometry_msgs/Quaternion:geometry_msgs/Pose:vision_msgs/Detection2D:sensor_msgs/Image:geometry_msgs/Point
 
 _kolt_generate_messages_check_deps_YoloDetect: CMakeFiles/_kolt_generate_messages_check_deps_YoloDetect
 _kolt_generate_messages_check_deps_YoloDetect: CMakeFiles/_kolt_generate_messages_check_deps_YoloDetect.dir/build.make
