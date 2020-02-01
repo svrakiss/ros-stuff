@@ -11,10 +11,11 @@
         <param name="image_topic" type="str" value="/rs/camera/color/image_raw" />
         <param name="depth_image_topic" type="str" value="/rs/camera/aligned_depth_to_color/image_raw" />
         <param name="image_type" type="str" value="rgbd" />
-        
+        <param name= "backend" type="str" value="yolov3-416"/>
+        <param name="input_size" type="int" value="416" />
     </node>
     
-    <include file="$(find kolt)/launch/includes/yolo_server_person.launch" />
+    <!-- <include file="$(find kolt)/launch/includes/yolo_server_person.launch" /> -->
     
     <node pkg="kolt" name="vision_pose" type="vision_pose.py" output="screen">
         <param name="camera_frame" type="str" value="camera_depth_frame" />

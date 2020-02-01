@@ -403,7 +403,7 @@ class TrtYOLOv3(object):
         self.model = model
         self.input_shape = input_shape
         h, w = input_shape
-        os.chdir('/home/nvidia/git/tensorrt_demos')
+        # os.chdir('/home/nvidia/git/tensorrt_demos')
         rospy.loginfo("Well I'm in the constructor for YOLOv3")
         if 'tiny' in model:
             self.output_shapes = [(1, 255, h // 32, w // 32),
@@ -463,7 +463,7 @@ class TrtYOLOv3(object):
     #     rospy.loginfo("stream: {}".format(self.stream)) 
     def __del__(self):
         """Free CUDA memories."""
-        rospy.loginfo("Deconstructing YOLOv3")
+        # rospy.loginfo("Deconstructing YOLOv3")
         del self.stream
         del self.outputs
         del self.inputs

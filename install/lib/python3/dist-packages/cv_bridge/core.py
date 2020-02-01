@@ -33,7 +33,7 @@
 
 import sensor_msgs.msg
 import sys
-
+# ?? whats up
 
 class CvBridgeError(TypeError):
     """
@@ -160,6 +160,8 @@ class CvBridge(object):
         """
         import cv2
         import numpy as np
+        import rospy
+        rospy.loginfo("YO")
         dtype, n_channels = self.encoding_to_dtype_with_channels(img_msg.encoding)
         dtype = np.dtype(dtype)
         dtype = dtype.newbyteorder('>' if img_msg.is_bigendian else '<')

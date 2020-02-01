@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nvidia/catkin_build_ws/build/kolt
 include CMakeFiles/_kolt_generate_messages_check_deps_ObjectLocationArray.dir/progress.make
 
 CMakeFiles/_kolt_generate_messages_check_deps_ObjectLocationArray:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kolt /home/nvidia/catkin_build_ws/src/kolt_ros/msg/ObjectLocationArray.msg std_msgs/Header:kolt/ObjectLocation
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kolt /home/nvidia/catkin_build_ws/src/kolt_ros/msg/ObjectLocationArray.msg kolt/ObjectLocation:std_msgs/Header
 
 _kolt_generate_messages_check_deps_ObjectLocationArray: CMakeFiles/_kolt_generate_messages_check_deps_ObjectLocationArray
 _kolt_generate_messages_check_deps_ObjectLocationArray: CMakeFiles/_kolt_generate_messages_check_deps_ObjectLocationArray.dir/build.make
