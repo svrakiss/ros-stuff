@@ -8,7 +8,7 @@ import ctypes
 
 import numpy as np
 import cv2
-import tensorflow as tf
+# import tensorflow as tf
 import tensorrt as trt
 import pycuda.driver as cuda
 
@@ -47,11 +47,11 @@ class TrtSSD(object):
 
     def _load_plugins(self):
         if trt.__version__[0] < '7':
-            ctypes.CDLL("ssd/libflattenconcat.so")
+            ctypes.CDLL("/home/nvidia/git/tensorrt_demos/ssd/libflattenconcat.so")
         trt.init_libnvinfer_plugins(self.trt_logger, '')
 
     def _load_engine(self):
-        TRTbin = 'ssd/TRT_%s.bin' % self.model
+        TRTbin = '/home/nvidia/git/tensorrt_demos/ssd/TRT_%s.bin' % self.model
         with open(TRTbin, 'rb') as f, trt.Runtime(self.trt_logger) as runtime:
             return runtime.deserialize_cuda_engine(f.read())
 

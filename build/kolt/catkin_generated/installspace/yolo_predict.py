@@ -54,7 +54,12 @@ import threading
 # threads.  The child thread writes new frame and detection result
 # into these variables, while the main thread reads from them.
 s_img, s_boxes, s_confs, s_clss = None, None, None, None
-
+ssd_SUPPORTED_MODELS = [
+    'ssd_mobilenet_v1_coco',
+    'ssd_mobilenet_v1_egohands',
+    'ssd_mobilenet_v2_coco',
+    'ssd_mobilenet_v2_egohands',
+]
 class TrtThread(threading.Thread):
     """TrtThread
 
@@ -96,8 +101,8 @@ class TrtThread(threading.Thread):
 
         print('TrtThread: loading the TRT SSD engine...')
         self.cuda_ctx = cuda.Device(0).make_context()  # GPU 0
-        if "ssd" in self.model:
-            self.trt_ssd = TrtSSD(self.model, INPUT_HW)
+        if self.model in ssd_SUPPORTED_MODELS:
+            self.trt_ssd = TrtSSD(self.model, self.INPUT_HW)
         else:
             self.trt_ssd = TrtYOLOv3(self.model, self.INPUT_HW)
         print('TrtThread: start running...')
@@ -155,9 +160,11 @@ class Yolov2Ros(object):
         self.bounding_box_pub = rospy.Publisher('{}/bounding_box_image'.format(rospy.get_name()), Image, queue_size=1)
         # self.cuda_ctx = cuda.Device(0).make_context()
         
-        self.backend = rospy.get_param('backend',default='yolov3-416')
+        self.backend = rospy.get_param('~backend',default='yolov3-416')
         self.input_size = rospy.get_param('~input_size',default=416)
         
+        rospy.loginfo('Using backend {}'.format(self.backend))
+        rospy.loginfo('Using input size {}'.format(self.input_size))
         cuda.init()
         self.condition=threading.Condition()
         self.trt_thread=TrtThread(self.condition,self.backend,(self.input_size,self.input_size))
@@ -206,9 +213,9 @@ class Yolov2Ros(object):
                                 detected.detections[i].source_img = cur_img
                         rospy.loginfo("publishing detections")
                         self.detect_pub.publish(detected)
-                        image = self._draw_boxes(cv_image, detected)
-                        rospy.loginfo("Publishing bounding boxes")
-                        self.bounding_box_pub.publish(self.bridge.cv2_to_imgmsg(image, "bgr8"))
+                    image = self._draw_boxes(cv_image, detected)
+                    rospy.loginfo("Publishing bounding boxes")
+                    self.bounding_box_pub.publish(self.bridge.cv2_to_imgmsg(image, "bgr8"))
                 except rospy.ServiceException as e:
                     rospy.logerr(e)
             

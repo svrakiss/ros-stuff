@@ -29,7 +29,7 @@ add_custom_target(_kolt_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv" NAME_WE)
 add_custom_target(_kolt_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kolt" "/home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv" "vision_msgs/ObjectHypothesisWithPose:geometry_msgs/Quaternion:geometry_msgs/Pose:sensor_msgs/Image:geometry_msgs/Pose2D:geometry_msgs/PoseWithCovariance:vision_msgs/BoundingBox2D:std_msgs/Header:geometry_msgs/Point:vision_msgs/Detection2D:vision_msgs/Detection2DArray"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kolt" "/home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv" "geometry_msgs/Quaternion:geometry_msgs/PoseWithCovariance:vision_msgs/Detection2D:geometry_msgs/Point:vision_msgs/Detection2DArray:vision_msgs/BoundingBox2D:geometry_msgs/Pose2D:sensor_msgs/Image:std_msgs/Header:geometry_msgs/Pose:vision_msgs/ObjectHypothesisWithPose"
 )
 
 #
@@ -55,7 +55,7 @@ _generate_msg_cpp(kolt
 _generate_srv_cpp(kolt
   "/home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv"
   "${MSG_I_FLAGS}"
-  "/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kolt
 )
 
@@ -104,7 +104,7 @@ _generate_msg_eus(kolt
 _generate_srv_eus(kolt
   "/home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv"
   "${MSG_I_FLAGS}"
-  "/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kolt
 )
 
@@ -153,7 +153,7 @@ _generate_msg_lisp(kolt
 _generate_srv_lisp(kolt
   "/home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv"
   "${MSG_I_FLAGS}"
-  "/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kolt
 )
 
@@ -202,7 +202,7 @@ _generate_msg_nodejs(kolt
 _generate_srv_nodejs(kolt
   "/home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv"
   "${MSG_I_FLAGS}"
-  "/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kolt
 )
 
@@ -251,7 +251,7 @@ _generate_msg_py(kolt
 _generate_srv_py(kolt
   "/home/nvidia/catkin_build_ws/src/kolt_ros/srv/YoloDetect.srv"
   "${MSG_I_FLAGS}"
-  "/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseWithCovariance.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/Detection2DArray.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/BoundingBox2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose2D.msg;/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/nvidia/catkin_build_ws/install/share/vision_msgs/cmake/../msg/ObjectHypothesisWithPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kolt
 )
 
