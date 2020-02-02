@@ -4,8 +4,8 @@ from distutils.core import setup
 from catkin_pkg.python_setup import generate_distutils_setup
 
 d = generate_distutils_setup(
-    packages=['core'],
-    package_dir={'': 'src'},
+    packages=['core','utils2'],
+    package_dir={'': 'src','utils2':'src/core/utils2'},
     install_requires=[
         'numpy', 
         'scipy',

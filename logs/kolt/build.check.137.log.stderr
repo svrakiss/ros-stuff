@@ -1,0 +1,8 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkin_python_setup.cmake:104 (message):
+  The package name 'utils2' differs from the basename of the path 'src/core'
+  in project 'kolt'
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:27 (catkin_python_setup)
+
+
+make: *** [cmake_check_build_system] Error 1

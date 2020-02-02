@@ -45,6 +45,7 @@ from geometry_msgs.msg import PoseWithCovariance, Pose2D
 # from sensor_msgs.msg import Image
 # from cv_bridge import CvBridge, CvBridgeError
 from core import TrtYOLOv3
+from utils2 import TrtSSD
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
@@ -95,8 +96,10 @@ class TrtThread(threading.Thread):
 
         print('TrtThread: loading the TRT SSD engine...')
         self.cuda_ctx = cuda.Device(0).make_context()  # GPU 0
-        # self.trt_ssd = TrtSSD(self.model, INPUT_HW)
-        self.trt_ssd = TrtYOLOv3(self.model, self.INPUT_HW)
+        if "ssd" in self.model:
+            self.trt_ssd = TrtSSD(self.model, INPUT_HW)
+        else:
+            self.trt_ssd = TrtYOLOv3(self.model, self.INPUT_HW)
         print('TrtThread: start running...')
         self.running = True
         while self.running:

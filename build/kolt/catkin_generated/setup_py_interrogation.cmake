@@ -1,6 +1,6 @@
 set(kolt_SETUP_PY_VERSION "1.0.0")
 set(kolt_SETUP_PY_SCRIPTS "")
-set(kolt_SETUP_PY_PACKAGES "core")
-set(kolt_SETUP_PY_PACKAGE_DIRS "src/core")
+set(kolt_SETUP_PY_PACKAGES "core;utils2")
+set(kolt_SETUP_PY_PACKAGE_DIRS "src/core;src/core/utils2")
 set(kolt_SETUP_PY_MODULES "")
 set(kolt_SETUP_PY_MODULE_DIRS "")

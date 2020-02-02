@@ -41,5 +41,6 @@ kolt_ros
 /home/nvidia/catkin_build_ws/devel/.private/kolt/lib/python3/dist-packages/kolt/srv/__init__.py /home/nvidia/catkin_build_ws/devel/lib/python3/dist-packages/kolt/srv/__init__.py
 /home/nvidia/catkin_build_ws/devel/.private/kolt/lib/python3/dist-packages/kolt/srv/__pycache__/_YoloDetect.cpython-36.pyc /home/nvidia/catkin_build_ws/devel/lib/python3/dist-packages/kolt/srv/__pycache__/_YoloDetect.cpython-36.pyc
 /home/nvidia/catkin_build_ws/devel/.private/kolt/lib/python3/dist-packages/kolt/srv/__pycache__/__init__.cpython-36.pyc /home/nvidia/catkin_build_ws/devel/lib/python3/dist-packages/kolt/srv/__pycache__/__init__.cpython-36.pyc
+/home/nvidia/catkin_build_ws/devel/.private/kolt/lib/python3/dist-packages/utils2/__init__.py /home/nvidia/catkin_build_ws/devel/lib/python3/dist-packages/utils2/__init__.py
 /home/nvidia/catkin_build_ws/devel/.private/kolt/lib/python3/dist-packages/core/__init__.py /home/nvidia/catkin_build_ws/devel/lib/python3/dist-packages/core/__init__.py
 /home/nvidia/catkin_build_ws/devel/.private/kolt/lib/pkgconfig/kolt.pc /home/nvidia/catkin_build_ws/devel/lib/pkgconfig/kolt.pc
